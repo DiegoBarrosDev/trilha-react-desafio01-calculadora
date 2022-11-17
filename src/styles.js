@@ -10,17 +10,17 @@ export const Container = styled.div`
     justify-content: center;
 `
 
-
 export const Content = styled.div`
     background-color: #FFFFFF;
     width: 50%;
+    min-width:300px;
 `
 
 export const Row = styled.div`
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 `
 
 export const Column = styled.div`
